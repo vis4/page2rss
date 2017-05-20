@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "d3-queue": "^3.0.7",
+    "js-yaml": "^3.8.4",
+    "moment": "^2.18.1",
+    "request": "^2.81.0",
+    "rss": "^1.2.2"
+  }
+}

@@ -1,0 +1,15 @@
+feeds:
+  gartenfreunde-berlin:
+    url: https://gartenfreunde-berlin.de/news
+    date_format: '[Vom] DD.MM.YYYY [um] HH:mm [Uhr]'
+    feed:
+      title: 'Gartenfreunde Berlin'
+    selectors:
+      item: article
+      headline: .headline
+      link: .headline a
+      description: .text
+      date: .uhrzeit
+      author: .gruppe_name
+      picture: .foto img
+
