@@ -20,13 +20,13 @@ q.awaitAll(function(err, results) {
 
 function loadFeed(id, cfg, callback) {
     var feed = new rss({
+        site_url: cfg.feed.url,
         title: cfg.feed.title,
         description: cfg.feed.description || '',
-        site_url: cfg.url,
         ttl: '30',
     });
 
-    request.get(cfg.url, function(err, res, body) {
+    request.get(cfg.feed.url, function(err, res, body) {
         
         if (err) return callback(err);
 

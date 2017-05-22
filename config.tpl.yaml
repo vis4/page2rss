@@ -1,15 +1,11 @@
 feeds:
-  gartenfreunde-berlin:
-    url: https://gartenfreunde-berlin.de/news
-    date_format: '[Vom] DD.MM.YYYY [um] HH:mm [Uhr]'
+  bloomberg-tech:
     feed:
-      title: 'Gartenfreunde Berlin'
+      url: https://www.bloomberg.com/topics/tech
+      title: 'Bloomberg Tech'
     selectors:
-      item: article
-      headline: .headline
-      link: .headline a
-      description: .text
-      date: .uhrzeit
-      author: .gruppe_name
-      picture: .foto img
-
+      item: .index-page__item
+      headline: .index-page__headline
+      link: .index-page__headline a
+      date: .label-and-timestamp
+    date_format: MMMM DD, YYYY
