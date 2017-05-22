@@ -12,7 +12,7 @@ Feeds will be stored in `out/` folder from where you can serve them on your webs
 
 **Configuration:**
 
-The config.yml supports the following
+The config.yml looks like this:
 
 ```yaml
 feeds:
