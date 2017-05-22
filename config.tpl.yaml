@@ -3,9 +3,13 @@ feeds:
     feed:
       url: https://www.bloomberg.com/topics/tech
       title: 'Bloomberg Tech'
+      description: Tech news, business analysis, commentary, long-form features, polling, original video, interactive graphics, and more from the nation&#39;s leading business commentators.
     selectors:
       item: .index-page__item
       headline: .index-page__headline
       link: .index-page__headline a
       date: .label-and-timestamp
+      #description: p.desc
+      #author: div.author
+      #picture: img
     date_format: MMMM DD, YYYY
